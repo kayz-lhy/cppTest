@@ -1,7 +1,3 @@
-//
-// Created by kayz on 23-7-31.
-//
-
 #ifndef CPPTEST_VECTORLNG_H
 #define CPPTEST_VECTORLNG_H
 
