@@ -1,3 +1,8 @@
+/**
+ * @author kayz
+ *
+ */
+
 #ifndef CPPTEST_VECTORLNG_H
 #define CPPTEST_VECTORLNG_H
 
