@@ -2,7 +2,7 @@
 #include "vectorLng.h"
 using std::cout,std::endl;
 
-int main(){
+void vecLng(){
     veclng::vectorLng vecTest(10);
     vecTest.init(10);
     vecTest.print();
@@ -11,5 +11,10 @@ int main(){
     vecTest.append(5);
     vecTest.reverse();
     vecTest.print();
+}
+
+
+int main(){
+    vecLng();
     return 0;
 }
