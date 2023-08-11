@@ -6,19 +6,31 @@
 #ifndef CPPTEST_VECTORLNG_H
 #define CPPTEST_VECTORLNG_H
 
+#define ELEM *it
+
 #include "vector"
 #include "iostream"
-using std::cout,std::cin,std::endl,std::vector;
+#include "algorithm"
+
 namespace veclng {
-    class vectorLng{
+
+    class vectorLng {
+
     private:
-        vector<int> vec;
+        std::vector<int> vec;
         int len;
     public:
         explicit vectorLng(int len);
+
         void init(int elem);
-        void traverse();
+
+        void print();
+
         bool isEmpty() const;
+
+        void reverse();
+
+        void append(int elem);
     };
 
 } // veclng
